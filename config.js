@@ -16,13 +16,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/Astropeda/Asta-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/JMsAFRD.jpeg" ;
-global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024" 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/b7fc1027e4dc34447ef23.jpg" ;
+global.caption = process.env.CAPTION || global.caption || "★彡 ʙɪɴᴀʟɪ ʙᴏᴛ-ᴍᴅ 彡★" 
 
 
 global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348146839663";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348146839663";
 
 
 
@@ -38,14 +38,14 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "true" 
-global.userImages= process.env.USER_IMAGES || "https://i.imgur.com/mHEqQgr.jpg,https://i.imgur.com/lSdca7B.jpg,https://i.imgur.com/XakNh3r.jpg,https://i.imgur.com/UslG8eB.jpg,https://i.imgur.com/0OQxTyt.jpg,https://i.imgur.com/MJCmdiA.jpg,https://i.imgur.com/K7zFZl2.jpg"
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/b7fc1027e4dc34447ef23.jpgmgur.com/0OQxTyt.jpg,https://i.imgur.com/MJCmdiA.jpg,https://i.imgur.com/K7zFZl2.jpg"
 global.waPresence= process.env.WAPRESENCE ||  "online" ;
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348146839663";
 
 
 global.read_status = process.env.AUTO_READ_STATUS || "false"
@@ -64,15 +64,15 @@ module.exports = {
 
   menu: process.env.MENU || "v1", 
 
-  HANDLERS: process.env.PREFIX  || "/",
+  HANDLERS: process.env.PREFIX  || "!",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.0",
-  caption : global.caption || "αѕтα-м∂ 2024" , 
+  caption : global.caption || "★彡 ʙɪɴᴀʟɪ ʙᴏᴛ-ᴍᴅ 彡★" , 
  
   author : process.env.PACK_AUTHER|| "αѕтяσ",
   packname: process.env.PACK_NAME || "αѕтяσ",
-  botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "αѕтяσ",
+  botname : process.env.BOT_NAME  || "LIL-ICY",
+  ownername:process.env.OWNER_NAME|| "LILICY👨‍🎤",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
